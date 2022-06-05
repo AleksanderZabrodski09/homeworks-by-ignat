@@ -12,9 +12,9 @@ export type messageDataType = {
 export const Message = (props: messageDataType) => {
   return (
     <div className={classes.message}>
-      <div className={classes.imgWrap}>
-        <img className={classes.img} src={props.avatar} alt=""/>
-      </div>
+
+      <img className={classes.img} src={props.avatar} alt=""/>
+
 
       <div className={classes.messageWrap}>
         <div className={classes.name}>{props.name}</div>
