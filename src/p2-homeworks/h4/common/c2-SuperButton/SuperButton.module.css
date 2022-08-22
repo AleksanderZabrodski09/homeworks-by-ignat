@@ -1,7 +1,42 @@
+@keyframes blink {
+    0% {
+        left: -70%
+    }
+    80% {
+        left: 80%
+    }
+}
+
+
+.button {
+    border: none;
+    margin-top: 3px;
+    min-width: 60px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+}
+
 .default {
 
+    background: burlywood;
+    color: white;
+}
+
+.default:active {
+    opacity: 0.8;
+}
+
+.red:active {
+    opacity: 0.8;
 }
 
 .red {
+    border: none;
     background: red;
+    color: white;
+}
+
+.button:hover:after {
+    animation: blink 0.35s ease;
 }
