@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    transition-duration: 600ms;
+    transform: translateY(-90px);
+    
+}
+
+.header:hover {
+    display: flex;
+    width: 300px;
+
+    transition-duration: 600ms;
+    transform: translateY(0);
+
+}
+
+.block {
+    display: flex;
+    align-items: flex-end;
+    width: 30px;
+    height: 40px;
+    background-color: blue;
+    margin: 5px;
+    color: white;
+    font-size: 11px;
+}
+
+.nav {
+    color: #ffffff;
+    background-color: #00e1ff;
+    padding: 10px;
+}
+
+.nav:hover {
+    color: chartreuse;
+    /*font-weight: 700;*/
+}
+
+.nav:active {
+    color: blue;
+
+}
+
+

@@ -1,0 +1,25 @@
+.wrapperError {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*justify-content: center;*/
+    /*border: 10px solid #00e1ff;*/
+
+    max-width: 90%;
+    background: gold;
+}
+
+.number {
+    font-size: 55px;
+    color: #00e1ff;
+}
+
+.page {
+    font-size: 45px;
+    color: red;
+}
+
+.cat {
+    font-size: 45px;
+    color: #00e1ff;
+}
